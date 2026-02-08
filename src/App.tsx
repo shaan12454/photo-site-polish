@@ -11,6 +11,7 @@ import { PageTransition } from "@/components/ui/PageTransition";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import { AnimatePresence } from "framer-motion";
 import { lazy, Suspense } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 const Index = lazy(() => import("./pages/Index"));
 const Portfolio = lazy(() => import("./pages/Portfolio"));
@@ -55,6 +56,7 @@ const App = () => (
               </Suspense>
             </Layout>
           </BrowserRouter>
+          <Analytics />
         </TooltipProvider>
       </ThemeProvider>
     </QueryClientProvider>
