@@ -22,7 +22,7 @@ export default function Home() {
               className="w-full h-full object-cover"
               onError={(e) => { (e.currentTarget as HTMLVideoElement).style.opacity = '0'; }}
             >
-              <source src="https://videos.pexels.com/video-files/2675516/2675516-sd_960_540_24fps.mp4" type="video/mp4" />
+              <source src="/14478075_1920_1080_30fps.mp4" type="video/mp4" />
             </video>
             <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/70" />
           </div>
