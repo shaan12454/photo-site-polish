@@ -29,8 +29,8 @@ I've already started my journey by creating two websites: "Pause and Say" and "G
   ],
   education: '10th Grade Student, Kerala, India',
   location: 'Kerala, India',
-  email: 'shaantaji55@gmail.com',
-  discord: 'ayooo_0001',
+  email: 'shaantaji123@gmail.com',
+  discord: '',
   socialLinks: {
     instagram: 'https://instagram.com/cryptic.auraa',
     linkedin: 'https://www.linkedin.com/in/shaan-taji/',
