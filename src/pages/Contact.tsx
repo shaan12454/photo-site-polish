@@ -35,53 +35,7 @@ export default function Contact() {
               </ScrollReveal>
 
               <ScrollReveal delay={0.15}>
-                <div className="space-y-6 sm:space-y-8">
-                  <div className="space-y-3">
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-light tracking-wide">Contact Information</h2>
-                    <p className="text-muted-foreground font-light text-sm sm:text-base">Prefer to reach out directly? Here's how you can contact me.</p>
-                  </div>
-
-                  <Separator />
-
-                  <div className="space-y-5 sm:space-y-6">
-                    <motion.div className="flex items-start gap-3 sm:gap-4" whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 300 }}>
-                      <div className="p-2.5 sm:p-3 rounded-lg bg-accent">
-                        <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-accent-foreground" />
-                      </div>
-                      <div className="space-y-1 min-w-0">
-                        <p className="text-xs sm:text-sm font-light tracking-wide text-muted-foreground">Email</p>
-                        <a href={`mailto:${photographerInfo.email}`} className="text-sm sm:text-base md:text-lg font-light hover:text-muted-foreground transition-colors break-all">
-                          {photographerInfo.email}
-                        </a>
-                      </div>
-                    </motion.div>
-
-                    {photographerInfo.discord && (
-                      <motion.div className="flex items-start gap-3 sm:gap-4" whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 300 }}>
-                        <div className="p-2.5 sm:p-3 rounded-lg bg-accent">
-                          <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5 text-accent-foreground" />
-                        </div>
-                        <div className="space-y-1">
-                          <p className="text-xs sm:text-sm font-light tracking-wide text-muted-foreground">Discord</p>
-                          <p className="text-sm sm:text-base md:text-lg font-light">{photographerInfo.discord}</p>
-                        </div>
-                      </motion.div>
-                    )}
-
-                    <motion.div className="flex items-start gap-3 sm:gap-4" whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 300 }}>
-                      <div className="p-2.5 sm:p-3 rounded-lg bg-accent">
-                        <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-accent-foreground" />
-                      </div>
-                      <div className="space-y-1">
-                        <p className="text-xs sm:text-sm font-light tracking-wide text-muted-foreground">Location</p>
-                        <p className="text-sm sm:text-base md:text-lg font-light">{photographerInfo.location}</p>
-                      </div>
-                    </motion.div>
-                  </div>
-                </div>
-              </ScrollReveal>
-            </div>
-          </div>
+      
         </section>
 
         <div className="h-12 sm:h-16" />
